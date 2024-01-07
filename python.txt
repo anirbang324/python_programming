@@ -1,0 +1,149 @@
+Python program to interchange first and last elements in a list
+
+def swapList(newList):
+    size = len(newList)
+     
+    # Swapping
+    temp = newList[0]
+    newList[0] = newList[size - 1]
+    newList[size - 1] = temp
+     
+    return newList
+     
+# Driver code
+newList = [12, 35, 9, 56, 24]
+ 
+print(swapList(newList))
+
+
+Python program to swap two elements in a list
+
+def swapPositions(list, pos1, pos2):
+     
+    list[pos1], list[pos2] = list[pos2], list[pos1]
+    return list
+ 
+# Driver function
+List = [23, 65, 19, 90]
+pos1, pos2  = 1, 3
+ 
+print(swapPositions(List, pos1-1, pos2-1))
+
+Minimum of two numbers in Python
+
+def minimum(a, b):
+      
+    if a <= b:
+        return a
+    else:
+        return b
+      
+# Driver code
+a = 2
+b = 4
+print(minimum(a, b))
+
+Maximum of two numbers in Python
+
+def maximum(a, b):
+     
+    if a >= b:
+        return a
+    else:
+        return b
+     
+# Driver code
+a = 2
+b = 4
+print(maximum(a, b))
+
+Count occurrences of an element in a list
+
+def countX(lst, x):
+    count = 0
+    for ele in lst:
+        if (ele == x):
+            count = count + 1
+    return count
+ 
+# Driver Code
+lst = [8, 6, 8, 10, 8, 20, 10, 8, 8]
+x = 8
+print('{} has occurred {} times'.format(x, countX(lst, x)))
+
+
+Find sum and average of List in Python
+
+L = [4, 5, 1, 2, 9, 7, 10, 8]
+  
+  
+# variable to store the sum of 
+# the list
+count = 0
+  
+# Finding the sum
+for i in L:
+    count += i
+      
+# divide the total elements by
+# number of elements
+avg = count/len(L)
+  
+print("sum = ", count)
+print("average = ", avg)
+
+
+
+Python program to find smallest number in a list
+
+list1 = [10, 20, 4, 45, 99]
+ 
+# sorting the list
+list1.sort()
+ 
+# printing the first element
+print("Smallest element is:", *list1[:1])
+
+
+Python program to find largest number in a list
+
+list1 = [10, 20, 4, 45, 99]
+  
+# sorting the list
+list1.sort()
+  
+# printing the last element
+print("Largest element is:", list1[-1])
+
+Python program to count Even and Odd numbers in a List
+
+list1 = [10, 21, 4, 45, 66, 93, 1]
+  
+even_count, odd_count = 0, 0
+  
+# iterating each number in list
+for num in list1:
+      
+    # checking condition
+    if num % 2 == 0:
+        even_count += 1
+  
+    else:
+        odd_count += 1
+          
+print("Even numbers in the list: ", even_count)
+print("Odd numbers in the list: ", odd_count)
+
+
+Remove even numbers from a list in Python.
+
+list1 = [11, 5, 17, 18, 23, 50]
+ 
+# Iterate each element in list
+# and add them in variable total
+for ele in list1:
+    if ele % 2 == 0:
+        list1.remove(ele)
+ 
+# printing modified list
+print("New list after removing all even numbers: ", list1)

@@ -1,0 +1,42 @@
+{
+    "theme1": {
+        "bg": "#ffc000",
+        "fg": "#4d4d4d",
+        "warning": "#b71515",
+        "default": "#4d4d4d",
+        "prime": "#417d00",
+        "not_prime": "#D73B3B"
+    },
+    "Blue_Berries": {
+        "bg": "#1e1f26",
+        "fg": "#d0e1f9",
+        "warning": "#85ff03",
+        "default": "#3d517d",
+        "prime": "#3d517d",
+        "not_prime": "#3d517d"
+    },
+    "Lemon": {
+        "bg": "#EAE2D6",
+        "fg": "#E1B80D",
+        "warning": "#c76f18",
+        "default": "#D5C3AA",
+        "prime": "#a8937e",
+        "not_prime": "#867666"
+    },
+    "Blue Matrix": {
+        "bg": "#101116",
+        "fg": "#00A2FF",
+        "warning": "#60FDFF",
+        "default": "#D682EC",
+        "prime": "#5FFA68",
+        "not_prime": "#FF6E67"
+    },
+    "Terminal Basic": {
+        "bg": "#FFFFFF",
+        "fg": "#000000",
+        "warning": "#00A3A3",
+        "default": "#0000B2",
+        "prime": "#00D900",
+        "not_prime": "#990000"
+    }
+}

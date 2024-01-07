@@ -1,0 +1,10 @@
+import numpy
+a= numpy.array([3,4,5,6,7,8,9,10,11])
+c = numpy.where(a == 8)
+# c = numpy.array_split(a,3)
+# # b = numpy.array([7,8,9])
+# # c = numpy.hstack((a,b))
+# print(c[0])
+# print(c[1])
+# print(c[2])
+print(c)

@@ -1,0 +1,17 @@
+if we get error on executionpolicy-
+
+open powershell by administrator:
+
+Set-ExecutionPolicy "RemoteSigned" -Scope Process -Confirm:$false
+
+Set-ExecutionPolicy "RemoteSigned" -Scope CurrentUser -Confirm:$false
+
+This will set the execution policy for the given scope.
+
+On executing "Get-ExecutionPolicy -List", we should now see the below:
+
+MachinePolicy = RemoteSigned
+UserPolicy       = Undefined
+Process           = RemoteSigned
+CurrentUser     = RemoteSigned
+LocalMachine  = RemoteSigned
