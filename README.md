@@ -33,9 +33,7 @@ cd python_programming
 - Prime-Tkinter/Prime-tkinter
 - Tkinter
 - database
-- ds
 - exception handling
-- executionpolicy error fix
 - file handling
 - functions
 - game
